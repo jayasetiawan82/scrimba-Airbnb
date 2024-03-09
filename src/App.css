@@ -57,9 +57,24 @@ overflow-x: auto;
     align-items: center;
 }
 
+.card {
+    position: relative;
+}
+
 .card-title {
    overflow: hidden;
    text-overflow: ellipsis; 
+}
+
+.card-badge {
+position: absolute;
+background-color:white;
+padding: 1px 2px;
+top: 10px;
+left: 10px;
+border-radius: 5px;
+font-weight: bold;
+font-size: .7rem;
 }
 
 
